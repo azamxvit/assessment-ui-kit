@@ -40,6 +40,7 @@ export default function RootLayout({
               <a 
                 href="https://github.com/azamxvit" 
                 target="_blank" 
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-3 py-2 rounded-full font-medium text-sm transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
               >
                 <Github className="w-5 h-5" />

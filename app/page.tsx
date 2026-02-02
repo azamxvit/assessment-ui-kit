@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, Layout, Zap, Smartphone, Globe } from "lucide-react";
+import { ArrowRight, CheckCircle2, Layout, Zap, Globe } from "lucide-react";
 
 export default function Home() {
   return (
@@ -59,6 +59,7 @@ export default function Home() {
           <a 
             href="https://github.com/azamxvit" 
             target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-4 rounded-full font-medium text-foreground/70 hover:text-foreground hover:bg-primary/5 transition-colors"
           >
             View Source Code
@@ -68,7 +69,7 @@ export default function Home() {
         {/* Footer Note */}
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-sm text-foreground/50 font-medium">
-            Designed & Developed by <span className="text-foreground">Azamat Omirtay</span>
+            Designed {'&'} Developed by <span className="text-foreground">Azamat Omirtay</span>
           </p>
         </div>
       </div>
